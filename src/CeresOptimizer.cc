@@ -39,7 +39,7 @@
 #include <Sophus/sim3.hpp>
 
 
-
+哈
 namespace ORB_SLAM2 {
 
     using namespace Sophus;
@@ -57,6 +57,7 @@ namespace ORB_SLAM2 {
 
     void CeresOptimizer::BundleAdjustment(const vector<KeyFrame *> &vpKFs, const vector<MapPoint *> &vpMP,
                                           int nIterations, bool *pbStopFlag, const unsigned long nLoopKF,
+
                                           const bool bRobust) {
 
         long unsigned int maxKFid = 0;
